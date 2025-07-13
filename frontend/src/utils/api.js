@@ -1,6 +1,6 @@
 // API Configuration
 export const API_BASE_URL =
-  process.env.REACT_APP_API_URL || "http://localhost:8000/api";
+  process.env.REACT_APP_API_URL || "https://beaten1-backend.onrender.com/api";
 
 // Helper function to build API URLs
 export const buildApiUrl = (endpoint) => {
